@@ -34,7 +34,7 @@ async function main(){
 
     console.log(`Running NoDex script for ID tests. This may take up to several hours.`);
     execSync('rm -rf projects/*');
-    execSync('cd projects && git clone https://github.com/biojava/biojava.git');
+    execSync(`cd projects && git clone ${projectURL}`);
     const output = execSync(`cd projects/${projectName} && mvn edu.illinois:nondex-maven-plugin:1.1.2:nondex`).toString();
 
     // mocking log file
