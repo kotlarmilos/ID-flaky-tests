@@ -33,11 +33,13 @@ async function main(){
 
 
     console.log(`Running NoDex script for ID tests. This may take up to several hours.`);
-    // execSync('rm -rf projects/*');
-    // execSync('cd projects && git clone https://github.com/biojava/biojava.git');
-    // const output = execSync(`cd projects/${projectName} && mvn edu.illinois:nondex-maven-plugin:1.1.2:nondex`)
+    execSync('rm -rf projects/*');
+    execSync('cd projects && git clone https://github.com/biojava/biojava.git');
+    const output = execSync(`cd projects/${projectName} && mvn edu.illinois:nondex-maven-plugin:1.1.2:nondex`).toString();
 
-    const output = Utilities.readFile('mockedLogs/output.log');
+    // mocking log file
+    // const output = Utilities.readFile('mockedLogs/output.log');
+
     const rePattern = new RegExp(/file:\/\/(.*)/g);
     let paths = output.match(rePattern);
     paths = paths.map(x=>Utilities.removeFilePart(x.replace('file:\/\/','')));
