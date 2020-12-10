@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains nodejs script for detecting  Implementation-Dependent flaky tests using NonDex and Order-Dependent flaky tests using iDFlakies tools. This repository contains `projects` directory for cloning github repositories. Directory `unfixedFlakyTests` contains list of unfixed flaky tests according to the http://mir.cs.illinois.edu/flakytests/unfixed.html. Directory `mockedLogs` contains mocked logs of `mvn edu.illinois:nondex-maven-plugin:1.1.2:nondex` for faster development.
+This repository contains nodejs script for detecting  Implementation-Dependent flaky tests using NonDex tool. This repository contains `projects` directory for cloning github repositories. Directory `unfixedFlakyTests` contains list of unfixed flaky tests according to the http://mir.cs.illinois.edu/flakytests/unfixed.html. Directory `mockedLogs` contains mocked logs of `mvn edu.illinois:nondex-maven-plugin:1.1.2:nondex` for faster development.
 
 ## Prerequests
  - Node v9.11.2
