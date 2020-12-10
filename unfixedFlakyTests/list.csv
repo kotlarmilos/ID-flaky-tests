@@ -1,0 +1,7 @@
+Project,SHA Detected,Module Path,Fully-Qualified Test Name (packageName.ClassName.methodName),Category
+biojava,245742d522d12440ece32f5c2d665ff81c465e98,biojava-integrationtest,org.biojava.nbio.structure.test.align.AlignmentToolsTest.testToConciseAlignmentString,ID
+biojava,245742d522d12440ece32f5c2d665ff81c465e98,biojava-integrationtest,org.biojava.nbio.structure.test.Test1a4w.testChemComps,ID
+biojava,245742d522d12440ece32f5c2d665ff81c465e98,biojava-integrationtest,org.biojava.nbio.structure.test.scop.ScopTest.testLocalScop,ID
+biojava,245742d522d12440ece32f5c2d665ff81c465e98,biojava-integrationtest,org.biojava.nbio.structure.test.cluster.TestSubunitClustererExamples.testPseudostoichiometry,ID
+biojava,245742d522d12440ece32f5c2d665ff81c465e98,biojava-integrationtest,org.biojava.nbio.structure.test.StructureToolsTest.testGetRepresentativeAtomsProtein,ID
+biojava,245742d522d12440ece32f5c2d665ff81c465e98,biojava-integrationtest,org.biojava.nbio.structure.test.symmetry.TestQuatSymmetryDetectorExamples.testLocal,ID
